@@ -17,7 +17,7 @@ spec:
           image: postgres:13.16
           ports:
             - containerPort: 5432
-          env:
+          env: 
             - name: POSTGRES_DB
               value: fakeshop
             - name: POSTGRES_USER
@@ -52,7 +52,7 @@ spec:
     spec:
       containers:
         - name: fakeshop
-          image: alexsessa/fake-shop:v1
+          image: alexsessa/fake-shop:v2
           ports:
             - containerPort: 5000
           env:
