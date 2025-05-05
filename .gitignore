@@ -1,0 +1,37 @@
+# 🌐 Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# 🔹 Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+.env.local
+
+# 🔹 Node.js
+node_modules/
+package-lock.json
+
+# 🐳 Docker
+*.docker
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# ⚙️ Kubernetes
+k8s/*.yaml
+k8s/*.yml
+
+# 🗄️ Banco de Dados
+*.sqlite3
+*.db
+
+# 🔍 Logs
+logs/
+*.log
+
+# 🔒 Arquivos Sensíveis
+estrutura_completa.txt
+e -i --root
